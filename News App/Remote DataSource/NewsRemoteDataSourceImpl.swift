@@ -8,9 +8,13 @@
 
 import Foundation
 import RxSwift
+import Alamofire
 
-struct NewsRemoteDataSourceImpl: INewsRemoteDataSource {
+class NewsRemoteDataSourceImpl: BaseRemoteDataSourceImpl, INewsRemoteDataSource {
+    
+    override init() { }
+    
     func getNews() -> Observable<NewsResponse> {
-        <#code#>
+        makeAPIRequest(responseType: NewsResponse.self, url: RemoteDataSourceConstants.NEWS_URL, method: .get, params: nil, encoding: JSONEncoding.default)
     }
 }
