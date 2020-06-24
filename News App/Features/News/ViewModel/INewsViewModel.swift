@@ -11,4 +11,5 @@ import RxSwift
 
 protocol INewsViewModel {
     var articles: PublishSubject<[Article]> { get }
+    var errorMessage: PublishSubject<String> { get }
 }

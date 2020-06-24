@@ -23,6 +23,10 @@ struct NewsInjections {
         container.register(INewsViewModel.self) { res in
             NewsViewModelImpl(newsRepo: res.resolve(INewsRepo.self)!)
         }
+        
+        container.storyboardInitCompleted(NewsViewController.self) { res, cntrl in
+            cntrl.newsViewModel = res.resolve(INewsViewModel.self)
+        }
     }
     
 }

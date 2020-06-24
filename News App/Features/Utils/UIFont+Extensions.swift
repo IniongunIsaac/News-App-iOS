@@ -16,7 +16,7 @@ extension UIFont {
     }
     
     class func poppinsRegular(size: CGFloat = 16) -> UIFont {
-        return  UIFont(name: "Poppins-Regular", size: size)!
+        return  UIFont(name: "Poppins", size: size)!
     }
     
     class func poppinsExtraBold(size: CGFloat = 16) -> UIFont {
