@@ -1,5 +1,5 @@
 # News App
-An iOS News Feed application developed using Swift, MVVM with repository pattern, RxSwift, Alamofire, RxAlamofire, Swinject and others. The application allows users to go through a News Feed whose source is backed by [News API](https://newsapi.org/docs/get-started).
+An iOS News Feed application developed using Swift, MVVM with repository pattern, RxSwift, Alamofire, RxAlamofire, Swinject and others. The application uses [Cocoapods](https://cocoapods.org/) for managing dependencies.  The application allows users to go through a News Feed whose source is backed by [News API](https://newsapi.org/docs/get-started).
 
 
 ## Technology Stack
