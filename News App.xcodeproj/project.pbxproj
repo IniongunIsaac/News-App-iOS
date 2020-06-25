@@ -55,6 +55,8 @@
 		14F5063424A3623500A14F04 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14F5062224A3623500A14F04 /* Poppins-ExtraLightItalic.ttf */; };
 		14F5063524A3623500A14F04 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14F5062324A3623500A14F04 /* Poppins-MediumItalic.ttf */; };
 		14F5063624A3623500A14F04 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14F5062424A3623500A14F04 /* Poppins-Black.ttf */; };
+		14F5063B24A49EFE00A14F04 /* screenshot_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F5063924A49EFD00A14F04 /* screenshot_2.png */; };
+		14F5063C24A49EFE00A14F04 /* screenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F5063A24A49EFD00A14F04 /* screenshot_1.png */; };
 		1EF070A4C356AC776679DC73 /* Pods_News_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED161C6EA73E90117E4387E5 /* Pods_News_App.framework */; };
 		3CDFF2894D4B477F75C547C4 /* Pods_News_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82607AFE6A6DE606E13EEC7A /* Pods_News_AppTests.framework */; };
 		729BF1103AE9CCC2E02CD9F2 /* Pods_News_App_News_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA90D3DF44E8487879AE9431 /* Pods_News_App_News_AppUITests.framework */; };
@@ -132,6 +134,9 @@
 		14F5062224A3623500A14F04 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		14F5062324A3623500A14F04 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		14F5062424A3623500A14F04 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		14F5063724A49D3A00A14F04 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		14F5063924A49EFD00A14F04 /* screenshot_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_2.png; sourceTree = "<group>"; };
+		14F5063A24A49EFD00A14F04 /* screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_1.png; sourceTree = "<group>"; };
 		2174D660A6D6221F2DDB4148 /* Pods-News App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News App.debug.xcconfig"; path = "Target Support Files/Pods-News App/Pods-News App.debug.xcconfig"; sourceTree = "<group>"; };
 		3936EF58BCCC0FB043206400 /* Pods-News App-News AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News App-News AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-News App-News AppUITests/Pods-News App-News AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		82607AFE6A6DE606E13EEC7A /* Pods_News_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_News_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +179,8 @@
 		14F5057424A2B87E00A14F04 = {
 			isa = PBXGroup;
 			children = (
+				14F5063824A49E6D00A14F04 /* media */,
+				14F5063724A49D3A00A14F04 /* README.md */,
 				14F505F024A2C19D00A14F04 /* Podfile.lock */,
 				14F5057F24A2B87E00A14F04 /* News App */,
 				14F5059624A2B88200A14F04 /* News AppTests */,
@@ -393,6 +400,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		14F5063824A49E6D00A14F04 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				14F5063A24A49EFD00A14F04 /* screenshot_1.png */,
+				14F5063924A49EFD00A14F04 /* screenshot_2.png */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
 		A6C94D03E534CA59BCC97E99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,10 +551,12 @@
 				14F5062524A3623500A14F04 /* Poppins-BlackItalic.ttf in Resources */,
 				14F5063624A3623500A14F04 /* Poppins-Black.ttf in Resources */,
 				14F5063024A3623500A14F04 /* Poppins-LightItalic.ttf in Resources */,
+				14F5063B24A49EFE00A14F04 /* screenshot_2.png in Resources */,
 				14F5062824A3623500A14F04 /* Poppins-ExtraBold.ttf in Resources */,
 				14F5062C24A3623500A14F04 /* Poppins-Italic.ttf in Resources */,
 				14F5062F24A3623500A14F04 /* Poppins-Regular.ttf in Resources */,
 				14F5063424A3623500A14F04 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				14F5063C24A49EFE00A14F04 /* screenshot_1.png in Resources */,
 				14F5058A24A2B88200A14F04 /* Assets.xcassets in Resources */,
 				14F5062924A3623500A14F04 /* Poppins-SemiBold.ttf in Resources */,
 				14F5063324A3623500A14F04 /* Poppins-Medium.ttf in Resources */,
