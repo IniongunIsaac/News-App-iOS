@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Light.ttf">
+            <string>Poppins-Light</string>
+        </array>
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--News Details View Controller-->
+        <scene sceneID="4J9-3a-Emb">
+            <objects>
+                <viewController storyboardIdentifier="NewsDetailsViewController" id="RmG-Hd-T0l" customClass="NewsDetailsViewController" customModule="News_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zGN-YZ-dRJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lYE-WH-Zru">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9AE-Vr-wAG">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="492.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" tag="8" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2np-7m-Oj6">
+                                                <rect key="frame" x="0.0" y="10" width="374" height="21"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="David Igbogidi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gug-Cl-qwG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="145" height="21"/>
+                                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="punchnews.ng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzs-3Y-CHW">
+                                                        <rect key="frame" x="153" y="0.0" width="127.5" height="21"/>
+                                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="13"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020-11-09" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrP-IJ-zfm">
+                                                        <rect key="frame" x="288.5" y="0.0" width="85.5" height="21"/>
+                                                        <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="12"/>
+                                                        <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="God Help Us, the Winklevoss Twins Are Co-Producing a Movie About Their Bitcoin Journey" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bV3-oz-BVg">
+                                                <rect key="frame" x="0.0" y="41" width="374" height="39.5"/>
+                                                <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountains" translatesAutoresizingMaskIntoConstraints="NO" id="ynj-cs-Dty">
+                                                <rect key="frame" x="0.0" y="90.5" width="374" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="Ix5-5U-3t2"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzs-Y7-KSE">
+                                                <rect key="frame" x="0.0" y="305.5" width="374" height="98"/>
+                                                <string key="text">At least three major Bitcoin wallets are vulnerable to fraud, and could even be completely bricked, leaving them unusable by their owners, according to new research.\nLedger Live, Edge, and Breadwallet (BRD) were all found to be vulnerable to the security flaw…</string>
+                                                <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixz-W7-yxz">
+                                                <rect key="frame" x="0.0" y="413.5" width="374" height="59"/>
+                                                <string key="text">Bitcoin is decentralized, good in an emergency, supported by passionate fans, and not likely ever to see mainstream adoption, says our columnist.</string>
+                                                <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="ynj-cs-Dty" firstAttribute="leading" secondItem="9AE-Vr-wAG" secondAttribute="leading" id="1Sr-m1-ElO"/>
+                                            <constraint firstItem="ynj-cs-Dty" firstAttribute="top" secondItem="bV3-oz-BVg" secondAttribute="bottom" constant="10" id="6fO-PK-Xqm"/>
+                                            <constraint firstItem="2np-7m-Oj6" firstAttribute="top" secondItem="9AE-Vr-wAG" secondAttribute="top" constant="10" id="8jT-qg-O5O"/>
+                                            <constraint firstAttribute="trailing" secondItem="ixz-W7-yxz" secondAttribute="trailing" id="9YN-xy-DM3"/>
+                                            <constraint firstItem="ixz-W7-yxz" firstAttribute="top" secondItem="Tzs-Y7-KSE" secondAttribute="bottom" constant="10" id="CwN-ne-mi0"/>
+                                            <constraint firstAttribute="trailing" secondItem="ynj-cs-Dty" secondAttribute="trailing" id="EVl-MZ-bvP"/>
+                                            <constraint firstItem="bV3-oz-BVg" firstAttribute="leading" secondItem="9AE-Vr-wAG" secondAttribute="leading" id="RdO-kC-rwm"/>
+                                            <constraint firstAttribute="trailing" secondItem="bV3-oz-BVg" secondAttribute="trailing" id="S2C-f0-csZ"/>
+                                            <constraint firstItem="Tzs-Y7-KSE" firstAttribute="top" secondItem="ynj-cs-Dty" secondAttribute="bottom" constant="15" id="T30-q8-qqS"/>
+                                            <constraint firstItem="2np-7m-Oj6" firstAttribute="leading" secondItem="9AE-Vr-wAG" secondAttribute="leading" id="XZb-L2-WVA"/>
+                                            <constraint firstItem="bV3-oz-BVg" firstAttribute="top" secondItem="2np-7m-Oj6" secondAttribute="bottom" constant="10" id="YsC-eY-Rws"/>
+                                            <constraint firstItem="Tzs-Y7-KSE" firstAttribute="leading" secondItem="9AE-Vr-wAG" secondAttribute="leading" id="Z5G-83-fGL"/>
+                                            <constraint firstAttribute="trailing" secondItem="2np-7m-Oj6" secondAttribute="trailing" id="fWz-BI-r0d"/>
+                                            <constraint firstAttribute="bottom" secondItem="ixz-W7-yxz" secondAttribute="bottom" constant="20" id="gG1-7Y-Vct"/>
+                                            <constraint firstItem="ixz-W7-yxz" firstAttribute="leading" secondItem="9AE-Vr-wAG" secondAttribute="leading" id="xqt-1o-86N"/>
+                                            <constraint firstAttribute="trailing" secondItem="Tzs-Y7-KSE" secondAttribute="trailing" id="xxF-Q1-cuf"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9AE-Vr-wAG" firstAttribute="bottom" secondItem="jsU-5b-R1V" secondAttribute="bottom" id="3Bu-xm-TEH"/>
+                                    <constraint firstItem="9AE-Vr-wAG" firstAttribute="trailing" secondItem="jsU-5b-R1V" secondAttribute="trailing" id="GFy-zg-hA5"/>
+                                    <constraint firstItem="9AE-Vr-wAG" firstAttribute="width" secondItem="hE4-BK-YkM" secondAttribute="width" id="H34-2g-fmG"/>
+                                    <constraint firstItem="9AE-Vr-wAG" firstAttribute="top" secondItem="jsU-5b-R1V" secondAttribute="top" id="ISK-gE-07N"/>
+                                    <constraint firstItem="9AE-Vr-wAG" firstAttribute="leading" secondItem="jsU-5b-R1V" secondAttribute="leading" id="iFf-2V-0Yg"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="jsU-5b-R1V"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="hE4-BK-YkM"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lYE-WH-Zru" firstAttribute="top" secondItem="9Kg-lf-WIi" secondAttribute="top" id="2vT-8Y-kEP"/>
+                            <constraint firstItem="lYE-WH-Zru" firstAttribute="bottom" secondItem="9Kg-lf-WIi" secondAttribute="bottom" id="HSH-Ms-SDr"/>
+                            <constraint firstItem="9Kg-lf-WIi" firstAttribute="trailing" secondItem="lYE-WH-Zru" secondAttribute="trailing" constant="20" id="uQb-Rn-VXy"/>
+                            <constraint firstItem="lYE-WH-Zru" firstAttribute="leading" secondItem="9Kg-lf-WIi" secondAttribute="leading" constant="20" id="uqh-jJ-8Ij"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Kg-lf-WIi"/>
+                    </view>
+                    <connections>
+                        <outlet property="articleMediaImageView" destination="ynj-cs-Dty" id="BRk-Wc-D8i"/>
+                        <outlet property="authorNameLabel" destination="gug-Cl-qwG" id="dLl-hg-uZH"/>
+                        <outlet property="contentLabel" destination="ixz-W7-yxz" id="ZAY-5p-K9O"/>
+                        <outlet property="datePublishedLabel" destination="UrP-IJ-zfm" id="Bev-dH-p3I"/>
+                        <outlet property="descriptionLabel" destination="Tzs-Y7-KSE" id="zqt-Eg-Dwn"/>
+                        <outlet property="sourceLabel" destination="xzs-3Y-CHW" id="gua-Wn-AYW"/>
+                        <outlet property="titleLabel" destination="bV3-oz-BVg" id="7bL-cA-QVY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nBU-XR-HZf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-201.44927536231884" y="162.05357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mountains" width="720" height="320"/>
+    </resources>
+</document>

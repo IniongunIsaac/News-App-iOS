@@ -12,5 +12,7 @@ struct AppConstants {
     
     static let DATA_NOT_FOUND = "No data available at the moment! Perhaps your internet connection is poor?"
     static let NEWS_CELL_ID = "newsTableViewCell"
+    static let NEWS_DETAILS_STORYBOARD = "NewsDetails"
+    static let NEWS_DETAILS_VC_ID = "NewsDetailsViewController"
 
 }

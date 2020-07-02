@@ -46,6 +46,12 @@ class NewsViewController: UIViewController {
             }
             
         }).disposed(by: disposeBag)
+        
+        newsTableView.rx.modelSelected(Article.self).subscribe(onNext: { article in
+            let newsDetailsViewController = UIStoryboard(name: AppConstants.NEWS_DETAILS_STORYBOARD, bundle: Bundle.main).instantiateViewController(withIdentifier: AppConstants.NEWS_DETAILS_VC_ID) as! NewsDetailsViewController
+            newsDetailsViewController.article = article
+            self.navigationController?.pushViewController(newsDetailsViewController, animated: true)
+        }).disposed(by: disposeBag)
     }
     
     fileprivate func observeErrorMessage() {
